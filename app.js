@@ -1,7 +1,7 @@
 const PROFILE = {
   name: "Amin El Filali",
   bio: "Independent developer helping businesses save time with automation tools, browser extensions, and custom-built web applications.",
-  avatarSrc: "./assets/avatar.png",
+  avatarSrc: "https://github.com/elfilaliamin/link-in-bio-webapp/blob/main/avatar.png?raw=true",
 
   links: [
     { label: "My Website", url: "https://elfilaliamin.com" },
@@ -120,5 +120,6 @@ function iconPinterestBetter() {
     </svg>
   `;
 }
+
 
 render();
