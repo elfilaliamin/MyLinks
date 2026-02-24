@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Link in Bio</title>
+  <meta name="description" content="All my links in one place." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <main class="page">
+    <!-- Animated background layers -->
+    <div class="bg" aria-hidden="true">
+    <div class="bgLayer bgLayer--a"></div>
+    <div class="bgLayer bgLayer--b"></div>
+    <div class="bgLayer bgLayer--c"></div>
+    <div class="bgLayer bgLayer--d"></div>
+    <div class="vignette"></div>
+    <div class="grain"></div>
+    </div>
+
+    <section class="card" aria-label="Link in bio card">
+      <header class="header">
+        <img class="avatar" id="avatar" alt="Profile photo" loading="lazy" decoding="async" />
+        <h1 class="name" id="name">Your Name</h1>
+        <p class="bio" id="bio">Small bio goes here.</p>
+      </header>
+
+      <nav class="links" id="links" aria-label="Links"></nav>
+
+      <footer class="social" aria-label="Social links" id="social"></footer>
+
+      <p class="hint" id="hint" aria-live="polite"></p>
+    </section>
+  </main>
+</body>
+</html>
